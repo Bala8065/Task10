@@ -80,4 +80,3 @@ def test_page_extract(setup):
     page_content = driver.page_source                          # Save content to a text file
     with open("webpage_task_qq.txt", "w", encoding="utf-8") as f:f.write(page_content)
     print("Webpage contents saved successfully to 'webpage_task_qq.txt'")
-    driver.close()
